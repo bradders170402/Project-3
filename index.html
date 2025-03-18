@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brad's Quiz Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Brad's Quiz Challenge</h1>
+  </header>
+
+  <main id="quiz-container">
+    <div id="quiz-question">
+      <h2>Question 1: What does the 'section' element in HTML represent?</h2>
+    </div>
+
+    <div id="quiz-options"></div>
+
+    <div class="quiz-controls">
+      <button id="prev-btn" disabled>Previous</button>
+      <button id="next-btn">Next</button>
+      <button id="submit-btn" style="display:none;">Submit</button>
+    </div>
+
+    <div id="quiz-score" style="display:none">
+      <p>Your score: <span id="score-value"></span></p>
+    </div>
+
+    <button id="restart-btn" style="display:none;">Restart Quiz</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Brad's Quiz App. All Rights Reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
