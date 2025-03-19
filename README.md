@@ -4,8 +4,8 @@ Project Overview
 The Online Quiz Web Application is an interactive platform where users can answer a series of randomly loaded questions and receive feedback on their performance. The quiz includes multiple-choice questions. Users navigate through questions using 'Next' and 'Submit' buttons and receive a summary of their performance upon completion.
 
  Features
-- randomised Questions: Every quiz attempt features a different set of questions.
-- Multiple Question Types: Includes multiple-choice, true/false, and fill-in-the-blank.
+- Randomised Questions: Every quiz attempt features a different set of questions.
+- Multiple Question Types: Includes multiple-choice questions.
 - Interactive UI: Users can navigate through questions with intuitive buttons.
 - Performance Summary: Provides a final score and explanations for correct answers.
 - Responsive Design: Adapts to different screen sizes.
